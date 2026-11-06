@@ -211,9 +211,12 @@ you say reads the same way as what you write in files.
 
 ### Wrapping
 
-- Wrap prose at column 90. When Prettier is available (as a dependency of the repo or
-  installed on the machine), use it with `--print-width 90 --prose-wrap always`.
-  Otherwise, wrap by hand at word boundaries.
+- In Markdown files, wrap prose at column 90. When Prettier is available (as a dependency
+  of the repo or installed on the machine), use it with
+  `--print-width 90 --prose-wrap always`. Otherwise, wrap by hand at word boundaries.
+- Chat replies are exempt from column-based wrapping. Do not insert hard line breaks
+  within prose paragraphs; let the terminal or chat interface wrap them naturally.
+  Preserve intentional breaks for paragraphs, lists, and code blocks.
 
 ## Document Formats
 
