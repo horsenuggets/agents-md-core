@@ -10,3 +10,8 @@
 # Project
 /CONTEXT.md
 /TODO.md
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
