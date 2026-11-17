@@ -117,10 +117,10 @@ body accurately reflect what the diff contains.
 
 Follow the same naming conventions of commit messages for PR titles.
 
-For the PR description, provide a clear and concise summary of the changes made in
-complete sentences, following our [Markdown Style](#markdown-style) conventions. For
-smaller PRs, a small paragraph is fine. For larger PRs, feel free to add headings to
-organize the content, but start with h3 as the top-level heading instead of h1 or h2.
+Write the PR description as one or two concise plain paragraphs explaining what changed
+and why, in complete sentences following our [Markdown Style](#markdown-style)
+conventions. Do not use headings, including "Summary" or "Test plan", or checklist
+boilerplate.
 
 As commits get added before the PR is merged, make sure to update the PR title and
 description to accurately reflect the current state of the changes.
