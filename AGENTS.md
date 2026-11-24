@@ -142,7 +142,7 @@ the failure with a script.
 **Exceptions**
 
 Running a project's own formatter or code generator (e.g., `prettier --write`,
-`terraform fmt`, `stylua`) through the shell is fine, since those are the normal way the
+`terraform fmt`, `styluau`) through the shell is fine, since those are the normal way the
 project rewrites files. For a large mechanical change across many files, such as renaming
 something everywhere, a script is acceptable if you tell the user first and show them the
 resulting diff afterward.
